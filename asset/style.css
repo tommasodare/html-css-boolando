@@ -13,7 +13,6 @@
     --bl-header: #ff6900;
 }
 
-
 .container {
     width: 70%;
     margin: auto;
@@ -81,6 +80,19 @@
         font-size: 15px;
     }
 }
+
+.image_1 {
+    display: inline-block;
+}
+
+.image_2 {
+    display: none;
+}
+
+.image_1:hover {
+    display: none;
+}
+
 
 .fa-brands.fa-gratipay {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -151,7 +163,11 @@ footer {
         font-size: 12px;
         padding-bottom: 0.25rem;
     }
-}     
+}  
+
+#find {
+    text-align: center;
+}
 
 #footer_icon {
     
