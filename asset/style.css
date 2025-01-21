@@ -13,16 +13,21 @@
     --bl-header: #ff6900;
 }
 
+
 .container {
     width: 70%;
     margin: auto;
 }
+
 
 #header {
     min-height: 50px;
     background-color: #ff6900;
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
     
 }
 
@@ -71,9 +76,13 @@
     width: 32.5%;
     margin-bottom: 3rem;
     position: relative;
+
+    h2 {
+        font-size: 15px;
+    }
 }
 
-.fa-brands {
+.fa-brands.fa-gratipay {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color:rgb(255, 255, 255);
     position: absolute;
@@ -83,7 +92,7 @@
 
 .offer_box {
     position: absolute;
-    bottom: 9rem;
+    bottom: 7rem;
     left:0rem;
 }
 
@@ -108,4 +117,46 @@
 
 .old_price {
     text-decoration: line-through;
+}
+
+footer {
+    background-color: #000000;
+}
+
+#footer {
+    min-height: 70px;
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div>h2,span {
+        color:white
+    }
+
+    h2 {
+        padding-bottom: 0.25rem;
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    div>p {
+        color: white;
+        font-size: 12px;
+        padding-bottom: 0.25rem;
+    }
+}     
+
+#footer_icon {
+    
+    i {
+        padding: 0.15rem;
+        font-size: 15px;
+    }
 }
