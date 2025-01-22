@@ -81,18 +81,27 @@
     }
 }
 
-.image_1 {
-    display: inline-block;
-}
+.element {
 
-.image_2 {
-    display: none;
-}
+    &:hover figure .image_2 {
+        display: block;
+    }
 
-.image_1:hover {
-    display: none;
-}
+    &:hover figure .image_1 {
+        display: none;
+    }
 
+    figure {
+
+        img {
+            display: block;
+        }
+
+        .image_2 {
+            display: none;
+        }
+    }
+}
 
 .fa-brands.fa-gratipay {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
